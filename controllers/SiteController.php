@@ -125,4 +125,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays helloWorld page.
+     *
+     * @return string
+     */
+    public function actionHelloWorld()
+    {
+        return $this->render('helloWorld');
+    }
 }
