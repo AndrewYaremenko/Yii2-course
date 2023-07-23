@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class MyController extends \yii\web\Controller
+use app\controllers\AppController;
+
+class MyController extends AppController
 {
     public function actionIndex($id = null)
     {
